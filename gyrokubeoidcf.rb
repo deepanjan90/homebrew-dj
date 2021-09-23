@@ -4,8 +4,8 @@
 class Gyrokubeoidcf < Formula
   desc "Gyro kube login test"
   homepage "https://github.com/deepanjan90/hello-world"
-  url "https://github.com/perfectsense/gyro/releases/download/release%2F1.1.2/gyro-cli-osx-1.1.2.zip"
-  sha256 "0117c9391b5387fd18d5de2ed9b3aaeebd9fb7809b63aca389e30433c4e81116"
+  url "https://github.com/deepanjan90/hello-world/releases/download/release%2F0.0.1/gyro-kube-oidc.tar.gz"
+  sha256 "a0ce0a6fed29aaf7f851d151f8afe1e104f0b06bcfc5c985a2c5efa4369276c0"
   version "1.0.0"
   license ""
 

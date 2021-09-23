@@ -6,7 +6,6 @@ class Gyrokubeoidcf < Formula
   homepage "https://github.com/deepanjan90/hello-world"
   url "https://github.com/deepanjan90/hello-world/blob/master/gyro-kube-oidc"
   version "1.0.0"
-  sha256 "10e7aee8e90ea22a8ebd3b5403c7af4a817bff22bce20e5706a8eaa6f877fb0b"
   license ""
 
   # depends_on "cmake" => :build

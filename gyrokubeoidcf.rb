@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class GyroKubeOidcF < Formula
+class Gyrokubeoidcf < Formula
   desc ""
   homepage ""
   url "https://github.com/deepanjan90/hello-world/blob/master/gyro-kube-oidc"

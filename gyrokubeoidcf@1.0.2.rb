@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Gyrokubeoidcf < Formula
+class GyrokubeoidcfAT1.0.2 < Formula
   desc "Gyro kube login test"
   homepage "https://github.com/deepanjan90/hello-world"
   url "https://github.com/deepanjan90/hello-world/releases/download/release%2F0.0.1/gyro-kube-oidc.tar.gz"

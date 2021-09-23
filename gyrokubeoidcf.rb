@@ -5,6 +5,7 @@ class Gyrokubeoidcf < Formula
   desc "Gyro kube login test"
   homepage "https://github.com/deepanjan90/hello-world"
   url "https://github.com/deepanjan90/hello-world/blob/master/gyro-kube-oidc.tar.gz"
+  sha256 "a0ce0a6fed29aaf7f851d151f8afe1e104f0b06bcfc5c985a2c5efa4369276c0"
   version "1.0.0"
   license ""
 

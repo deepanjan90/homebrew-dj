@@ -2,11 +2,11 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Gyrokubeoidcf < Formula
-  desc ""
-  homepage ""
+  desc "Gyro kube login test"
+  homepage "https://github.com/deepanjan90/hello-world"
   url "https://github.com/deepanjan90/hello-world/blob/master/gyro-kube-oidc"
-  version ""
-  sha256 ""
+  version "1.0.0"
+  sha256 "01aa854076dfb9d98d6b7b2b91ca3deadd7b2ecef819c5f79acbd77d735af2af"
   license ""
 
   # depends_on "cmake" => :build

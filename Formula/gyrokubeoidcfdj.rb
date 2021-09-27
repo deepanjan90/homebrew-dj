@@ -5,43 +5,42 @@
 class Gyrokubeoidcfdj < Formula
   desc "Software to create fast and easy drum rolls."
   homepage "https://example.com/"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.6.0/kube-oidc-dj_0.6.0_Darwin_x86_64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "687430267e458af9e5bea6b48034f6ba2a4f743414545930c1d9a6f447594876"
+      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.7.0/kube-oidc-dj_0.7.0_Darwin_x86_64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "677a03b3b2fce4ec72402e5d8e53e1d91b3495e49f3708be954e135ebc6fa3ae"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.6.0/kube-oidc-dj_0.6.0_Darwin_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "10916cd690412c75f4658240f2b37a84741b1efc732f709b7422cfba7d623540"
+      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.7.0/kube-oidc-dj_0.7.0_Darwin_arm64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "4948c6948fd2086f128de405d7f8c6073f909b9db9529560c2d6c9f6929167a1"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.6.0/kube-oidc-dj_0.6.0_Linux_x86_64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "6ba437651372e958c716944cb18ed2dd6642a3035096b4481d1053ca420186c4"
+      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.7.0/kube-oidc-dj_0.7.0_Linux_x86_64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "82d2b88af8abbc9c4b3d9a4197084e06893992c5111cca1453a4948deaaac311"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.6.0/kube-oidc-dj_0.6.0_Linux_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "dab9a1bfb8b67cf55c1b774ca73e4b6303b792467a645051197ff468614a4551"
+      url "https://github.com/deepanjan90/kube-oidc-dj/releases/download/v0.7.0/kube-oidc-dj_0.7.0_Linux_arm64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "a685cf875d15f2f4d2c3312fe04b9040c850570054b0a5ccc052fb5fe8a2f582"
     end
   end
 
   depends_on "git"
   depends_on "zsh" => :optional
 
-  conflicts_with "svn"
-  conflicts_with "bash"
-
   def install
-    bin.install 'kube-oidc-dj' => 'kube-oidc-dj'
+    bin.install "kube-oidc-dj" => "kube-oidc-dj"
+    ...
   end
 
-  test do
-    system "#{bin}/kube-oidc-dj --version"
+  def caveats; <<~EOS
+    How to use this binary
+  EOS
   end
 end

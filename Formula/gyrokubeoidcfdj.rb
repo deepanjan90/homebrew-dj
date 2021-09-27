@@ -36,7 +36,6 @@ class Gyrokubeoidcfdj < Formula
 
   def install
     bin.install "kube-oidc-dj" => "kube-oidc-dj"
-    ...
   end
 
   def caveats; <<~EOS

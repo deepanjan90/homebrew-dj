@@ -41,19 +41,6 @@ class Gyrokubeoidcfdj < Formula
     bin.install 'kube-oidc-dj' => 'kube-oidc-dj'
   end
 
-  def caveats; <<~EOS
-    How to use this binary
-  EOS
-  end
-
-  plist_options :startup => false
-
-  def plist; <<~EOS
-    <?xml version="1.0" encoding="UTF-8"?>
-
-  EOS
-  end
-
   test do
     system "#{bin}/kube-oidc-dj --version"
   end

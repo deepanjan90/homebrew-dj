@@ -38,7 +38,7 @@ class Gyrokubeoidcfdj < Formula
   conflicts_with "bash"
 
   def install
-    bin.install 'gyro-kube-oidc' => 'gyro-kube-oidc'
+    bin.install 'kube-oidc-dj' => 'kube-oidc-dj'
   end
 
   def caveats; <<~EOS
@@ -55,6 +55,6 @@ class Gyrokubeoidcfdj < Formula
   end
 
   test do
-    system "#{bin}/gyro-kube-oidc --version"
+    system "#{bin}/kube-oidc-dj --version"
   end
 end

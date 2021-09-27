@@ -39,7 +39,6 @@ class Gyrokubeoidcfdj < Formula
 
   def install
     bin.install "program"
-    ...
   end
 
   def caveats; <<~EOS
@@ -51,13 +50,11 @@ class Gyrokubeoidcfdj < Formula
 
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
-...
 
   EOS
   end
 
   test do
     system "#{bin}/program --version"
-    ...
   end
 end

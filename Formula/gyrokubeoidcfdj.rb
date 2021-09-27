@@ -55,6 +55,6 @@ class Gyrokubeoidcfdj < Formula
   end
 
   test do
-    system "#{bin}/program --version"
+    system "#{bin}/gyro-kube-oidc --version"
   end
 end

@@ -38,7 +38,7 @@ class Gyrokubeoidcfdj < Formula
   conflicts_with "bash"
 
   def install
-    bin.install "program"
+    bin.install 'gyro-kube-oidc' => 'gyro-kube-oidc'
   end
 
   def caveats; <<~EOS

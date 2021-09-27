@@ -31,6 +31,22 @@ class Gyrokubeoidcfdj < Formula
     end
   end
 
+  depends_on "argoproj/tap/kubectl-argo-rollouts"
+  depends_on "awscli"
+  depends_on "kubectl"
+  depends_on "kubectx"
+  depends_on "aws-iam-authenticator"
+  depends_on "helm"
+  depends_on "helmfile"
+  depends_on "linkerd"
+  depends_on "gettext"
+  depends_on "jq"
+  depends_on "python-yq"
+  depends_on "sops"
+  depends_on "direnv"
+  depends_on "kube-ps1"
+  depends_on "calicoctl"
+  depends_on "int128/kubelogin/kubelogin"
   depends_on "git"
   depends_on "zsh" => :optional
 
